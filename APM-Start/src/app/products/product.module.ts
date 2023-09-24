@@ -6,7 +6,7 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
-import { ProductResolver } from './product-resover.service';
+import { ProductResolver } from './product-resolver.service';
 
 @NgModule({
   imports: [
