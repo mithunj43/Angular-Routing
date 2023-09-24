@@ -5,7 +5,7 @@ import { Observable, of } from 'rxjs';
 
 import { ProductResolved } from './product';
 import { ProductService } from './product.service';
-import { error } from 'console';
+
 import { catchError, map } from 'rxjs/operators';
 
 @Injectable({
